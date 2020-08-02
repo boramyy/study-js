@@ -57,10 +57,10 @@ module.exports = {
 	},
 	plugins: [
 		new HtmlWebpackPlugin({
-			// templateParameters: {
-			// 템플릿에 주입할 파라매터 변수 지정
-			// env: process.env.NODE_ENV === 'development' ? '(개발용)' : '(빌드용)',
-			// },
+			templateParameters: {
+				// 템플릿에 주입할 파라매터 변수 지정
+				env: process.env.NODE_ENV === 'development' ? '' : '',
+			},
 			minify:
 				process.env.NODE_ENV === 'production'
 					? {
