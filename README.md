@@ -34,10 +34,36 @@
 
 ## NPM Scripts
 
-### start:dev
+```shell
+$ npm run start:dev
+```
 
 로컬 테스트 실행
 
-### build
+```shell
+$ npm run build
+```
 
 dist 폴더 생성
+
+## commit 규칙
+
+대괄호 안에 태그??를 쓰고 내용작성
+
+- [Add] 검색 api 연동
+- [Remove] 주석삭제
+
+태그리스트
+
+- Add
+- Change
+- Fix
+- Remove
+
+## todos
+
+[projects](https://github.com/boramyy/study-js/projects)
+
+## 배포
+
+gh-pages ..

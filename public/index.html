@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>study js</title>
+    <link
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+      rel="stylesheet"
+    />
+    <!-- <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script> -->
+  </head>
+  <body>
+    <%= require('html-loader!../src/views/layouts/header.html') %>
+    <!-- <header>
+      <h1>hello :D</h1>
+    </header> -->
+
+    <%= require('html-loader!../src/views/layouts/content.html') %> <%=
+    require('html-loader!../src/views/layouts/footer.html') %>
+  </body>
+</html>
