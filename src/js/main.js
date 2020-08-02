@@ -1,7 +1,7 @@
 function main() {
-	const hoho = `${2 + 3} yeah`;
+  const hoho = `${2 + 3} yeah test`;
 
-	console.log('this is main!', hoho);
+  console.log("this is main!", hoho);
 }
 
 export default main;

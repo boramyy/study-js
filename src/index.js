@@ -1,7 +1,7 @@
-import './assets/css/app.scss';
+import "./assets/css/app.scss";
 
-import main from './js/main';
+import main from "./js/main";
 
 (function () {
-	main();
+  main();
 })();
